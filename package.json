@@ -2,7 +2,7 @@
   "name": "angular-dashboard",
   "version": "0.0.1",
   "description": "Angular Dashboard App",
-  "repository": "",
+  "repository": "git@github.com:oieduardorabelo/angular-dashboard.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node node_modules/.bin/webpack-dev-server --content-base app"
