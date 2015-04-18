@@ -1,4 +1,8 @@
+'use strict'
+
 export default (ngModule) => {
+  require('./main-footer.less')
+
   ngModule.directive('mainFooter', () => {
     return {
       restrict: 'E',

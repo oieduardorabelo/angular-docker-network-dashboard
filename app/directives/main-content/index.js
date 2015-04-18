@@ -1,4 +1,8 @@
+'use strict'
+
 export default (ngModule) => {
+  require('./main-content.less')
+
   ngModule.directive('mainContent', () => {
     return {
       restrict: 'E',
