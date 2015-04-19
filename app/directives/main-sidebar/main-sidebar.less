@@ -5,6 +5,22 @@
 /* Hide for mobile, show later */
 .sidebar {
   display: none;
+
+  .glyphicon {
+    margin-right: 8px;
+  }
+
+  .dl-separator {
+    margin-top: 20px;
+  }
+
+  dt, dd {
+    line-height: 26px;
+  }
+
+  dd .label {
+    margin-right: 8px;
+  }
 }
 
 /* Sidebar navigation */
@@ -15,31 +31,39 @@
 }
 
 .nav-sidebar > li > a {
+  color: #EEE;
   padding-right: 20px;
   padding-left: 20px;
+
+  &:hover,
+  &:focus {
+    color: #333 !important;
+    background-color: darken(#EEE, 10%) !important;
+  }
 }
 
 .nav-sidebar > .active > a,
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
-  color: #fff;
-  background-color: #428bca;
+  color: #333 !important;
+  background-color: darken(#EEE, 10%) !important;
 }
 
 
 
 @media (min-width: 768px) {
   .sidebar {
+    color: #EEE;
     position: fixed;
-    top: 51px;
+    top: 50px;
     bottom: 0;
     left: 0;
     z-index: 1000;
     display: block;
-    padding: 20px;
+    padding-left: 20px;
     overflow-x: hidden;
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: #f5f5f5;
+    background-color: #2B2F44;
     border-right: 1px solid #eee;
   }
 }

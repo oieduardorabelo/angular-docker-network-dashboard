@@ -31,11 +31,23 @@ main-header {
   }
 
   a {
-    color: #666 !important;
+    color: #2B2F44 !important;
+    position: relative;
 
     &:hover {
-      background-color: darken(#00D9F8, 10%) !important;
       color: #333 !important;
+      background-color: #F7F7F7 !important;
+
+      &:after {
+        content: "";
+        display: block;
+        height: 6px;
+        background-color: darken(#00D9F8, 20%);
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 100%;
+      }
     }
   }
 }
