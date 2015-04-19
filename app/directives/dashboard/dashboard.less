@@ -1,0 +1,82 @@
+/*
+ * Main content
+ */
+ dashboard {
+  .glyphicon-th {
+    margin-right: 8px;
+  }
+ }
+
+.main {
+  padding: 20px;
+}
+
+.main .page-header {
+  margin-top: 0;
+}
+
+.machines {
+  background-color: darken(#00D9F8, 20%);
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0,0,0,.3);
+  padding: 14px;
+  transition: all linear 250ms;
+
+  &:hover {
+    transform: translateY(-4px)
+  }
+
+  .is-on {
+    background-color: #5cb85c;
+
+    &:hover {
+      background-color: lighten(#5cb85c, 15%);
+    }
+  }
+
+  .is-off {
+    background-color: #d9534f;
+
+    &:hover {
+      background-color: lighten(#d9534f, 15%);
+    }
+  }
+
+  .is-paused {
+    background-color: #f0ad4e;
+
+    &:hover {
+      background-color: lighten(#f0ad4e, 15%);
+    }
+  }
+
+  .glyphicon {
+    margin-right: 8px;
+  }
+
+  .title {
+    color: #FFF;
+    margin-bottom: 14px;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .list-group {
+    margin-bottom: 0;
+  }
+
+  .list-group-item {
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}

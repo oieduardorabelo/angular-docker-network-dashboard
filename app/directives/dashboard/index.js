@@ -1,13 +1,13 @@
 'use strict'
 
 export default (ngModule) => {
-  require('./main-content.less')
+  require('./dashboard.less')
 
-  ngModule.directive('mainContent', () => {
+  ngModule.directive('dashboard', () => {
     return {
       restrict: 'E',
       scope: {},
-      template: require('./main-content.html'),
+      template: require('./dashboard.html'),
       controllerAs: 'vm',
       controller: function() {
         // code
