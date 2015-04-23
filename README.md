@@ -2,6 +2,12 @@
 
 Dashboard with [Twitter Bootstrap](http://getbootstrap.com/), [Webpack](http://webpack.github.io/) and [AngularJS](https://angularjs.org/)
 
+#### Mission
+
+Show all Machines in the network and all Docker container's inside of each.
+
+With drag'n'drop, you can connect Machines and Containers.
+
 #### Dependencies
 
 Please, first run:
