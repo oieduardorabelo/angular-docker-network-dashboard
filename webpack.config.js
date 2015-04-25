@@ -1,10 +1,12 @@
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
-  context: __dirname + '/app',
+  context: path.join(__dirname, '/app'),
   entry: './index.js',
   output: {
-    path: __dirname + '/app',
+    path: path.join(__dirname, '/dist'),
+    publicPath: '/dist',
     filename: 'bundle.js'
   },
   plugins: [
@@ -22,7 +24,7 @@ module.exports = {
       { test: /\.woff2$/, loader: 'url-loader?limit=10000&mimetype=application/font-woff' },
       { test: /\.ttf$/,   loader: 'file' },
       { test: /\.eot$/,   loader: 'file' },
-      { test: /\.svg$/,   loader: 'file' },
+      { test: /\.svg$/,   loader: 'file' }
     ]
   }
 }
