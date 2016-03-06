@@ -26,4 +26,4 @@ npm start
 
 This command will generate a local server with ***webpack watcher*** on `localhost:8080`
 
-![Angular Dashboard Preview](https://dl.dropboxusercontent.com/s/fw44z8o1e7k7v9w/dashboard%20%281%29.png)
+![Angular Dashboard Preview](https://dl.dropboxusercontent.com/s/k2xbbyy5gpcol6e/Screen%20Shot%202016-03-06%20at%201.45.14%20PM.png)
