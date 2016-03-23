@@ -10,7 +10,7 @@
   "author": "Angular Dashboard <dashboard@app.io>",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.7.2",
+    "babel-core": "^6.7.4",
     "babel-loader": "^5.0.0",
     "css-loader": "^0.10.1",
     "file-loader": "^0.8.1",
