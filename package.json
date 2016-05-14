@@ -10,22 +10,22 @@
   "author": "Angular Dashboard <dashboard@app.io>",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.7.5",
-    "babel-loader": "^5.0.0",
-    "css-loader": "^0.10.1",
-    "file-loader": "^0.8.1",
-    "less": "^2.5.0",
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "less": "^2.7.1",
     "less-loader": "^2.2.3",
     "raw-loader": "^0.5.1",
     "style-loader": "^0.13.1",
-    "url-loader": "^0.5.5",
-    "webpack": "^1.12.15",
-    "webpack-dev-server": "^1.8.0"
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "angular": "^1.5.3",
-    "angular-ui-router": "^0.2.13",
-    "bootstrap": "^3.3.4",
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
     "jquery": "^2.2.3"
   }
 }
