@@ -1,13 +1,14 @@
 'use strict'
 
 import './dashboard.less'
+import rawTemplate from './dashboard.html'
 
 export default (ngModule) => {
   ngModule.directive('dashboard', () => {
     return {
       restrict: 'E',
       scope: {},
-      template: require('./dashboard.html'),
+      template: rawTemplate,
       controllerAs: 'vm',
       controller: function() {
         // code
