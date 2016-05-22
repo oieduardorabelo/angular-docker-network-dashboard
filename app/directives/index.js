@@ -1,6 +1,11 @@
+import mainHeader from './main-header'
+import mainFooter from './main-footer'
+import mainSidebar from './main-sidebar'
+import dashboard from './dashboard'
+
 export default (ngModule) => {
-  require('./main-header')(ngModule)
-  require('./main-footer')(ngModule)
-  require('./main-sidebar')(ngModule)
-  require('./dashboard')(ngModule)
+  mainHeader(ngModule)
+  mainFooter(ngModule)
+  mainSidebar(ngModule)
+  dashboard(ngModule)
 }

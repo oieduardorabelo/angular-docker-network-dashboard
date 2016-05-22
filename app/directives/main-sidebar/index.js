@@ -1,8 +1,8 @@
 'use strict'
 
-export default (ngModule) => {
-  require('./main-sidebar.less')
+import './main-sidebar.less'
 
+export default (ngModule) => {
   ngModule.directive('mainSidebar', () => {
     return {
       restrict: 'E',

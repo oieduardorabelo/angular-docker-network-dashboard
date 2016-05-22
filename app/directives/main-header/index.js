@@ -1,8 +1,8 @@
 'use strict'
 
-export default (ngModule) => {
-  require('./main-header.less')
+import './main-header.less'
 
+export default (ngModule) => {
   ngModule.directive('mainHeader', () => {
     return {
       restrict: 'E',

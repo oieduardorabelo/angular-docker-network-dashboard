@@ -1,8 +1,14 @@
 'use strict'
 
-const angular = require('angular')
-const ngModule = angular.module('NetworkDashboardApp', [require('angular-ui-router')])
+import angular from 'angular'
+import uiRouter from 'angular-ui-router'
 
-require('./vendors')()
-require('./angular.routes')(ngModule)
-require('./directives')(ngModule)
+const ngModule = angular.module('NetworkDashboardApp', [uiRouter])
+
+import './vendors'
+import routes from './angular.routes'
+import directives from './directives'
+
+routes(ngModule)
+directives(ngModule)
+

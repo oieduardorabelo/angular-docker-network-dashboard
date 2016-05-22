@@ -1,8 +1,8 @@
 'use strict'
 
-export default (ngModule) => {
-  require('./dashboard.less')
+import './dashboard.less'
 
+export default (ngModule) => {
   ngModule.directive('dashboard', () => {
     return {
       restrict: 'E',
