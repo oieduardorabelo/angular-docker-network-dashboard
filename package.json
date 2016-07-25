@@ -27,7 +27,7 @@
     "angular": "^1.5.7",
     "angular-ui-router": "^0.3.1",
     "babel-preset-stage-0": "^6.5.0",
-    "bootstrap": "^3.3.6",
+    "bootstrap": "^3.3.7",
     "jquery": "^3.1.0"
   }
 }
