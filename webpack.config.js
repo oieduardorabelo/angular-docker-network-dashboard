@@ -1,8 +1,8 @@
-import webpack from 'webpack'
-import _path from 'path'
-const path = (dir) => _path.join(__dirname, dir)
+const webpack = require('webpack')
+const nodePath = require('path')
+const path = (dir) => nodePath.join(__dirname, dir)
 
-export default {
+module.exports = {
   devtools: 'inline-source-map',
   context: path('/app'),
   entry: './index.js',
