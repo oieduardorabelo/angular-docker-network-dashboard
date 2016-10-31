@@ -30,7 +30,7 @@
     "karma-webpack": "1.8.0",
     "less": "2.7.1",
     "less-loader": "2.2.3",
-    "lodash": "4.16.4",
+    "lodash": "4.16.5",
     "null-loader": "0.1.1",
     "protractor": "4.0.10",
     "raw-loader": "0.5.1",
