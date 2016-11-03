@@ -9,7 +9,7 @@
   },
   "author": "Angular Dashboard <dashboard@app.io>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "angular": "1.5.8",
     "angular-mocks": "1.5.8",
     "angular-ui-router": "0.3.1",
