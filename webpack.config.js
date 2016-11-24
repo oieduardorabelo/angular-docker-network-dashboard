@@ -1,6 +1,7 @@
-const webpack = require('webpack')
-const nodePath = require('path')
-const path = (dir) => nodePath.join(__dirname, dir)
+const webpack = require('webpack');
+const nodePath = require('path');
+
+const path = dir => nodePath.join(__dirname, dir);
 
 module.exports = {
   devtools: 'inline-source-map',
@@ -9,13 +10,13 @@ module.exports = {
   output: {
     path: path('/dist'),
     publicPath: '/dist',
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
   plugins: [
     new webpack.ProvidePlugin({
       $: 'jquery',
-      jQuery: 'jquery'
-    })
+      jQuery: 'jquery',
+    }),
   ],
   module: {
     loaders: [
@@ -23,7 +24,7 @@ module.exports = {
       { test: /\.html$/, loader: 'raw', exclude: 'node_modules' },
       { test: /\.less$/, loader: 'style!css!less', exclude: 'node_modules' },
       { test: /\.(woff|woff2)$/, loader: 'url-loader?limit=10000&mimetype=application/font-woff' },
-      { test: /\.(ttf|eot|svg)$/, loader: 'file' }
-    ]
-  }
-}
+      { test: /\.(ttf|eot|svg)$/, loader: 'file' },
+    ],
+  },
+};

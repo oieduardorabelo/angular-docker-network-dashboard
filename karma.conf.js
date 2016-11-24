@@ -1,7 +1,6 @@
-const webpack = require('webpack')
-const webpackConfig = require('./webpack.config')
+const webpack = require('webpack');
 
-module.exports = function(config) {
+module.exports = function karmaConfig(config) {
   config.set({
 
     files: [
@@ -9,7 +8,7 @@ module.exports = function(config) {
       'node_modules/angular-ui-router/release/angular-ui-router.js',
       'node_modules/angular-ui-router/release/stateEvents.js',
       'node_modules/angular-mocks/angular-mocks.js',
-      'app/**/*.js'
+      'app/**/*.js',
     ],
 
     autoWatch: true,
@@ -23,16 +22,16 @@ module.exports = function(config) {
       'karma-jasmine',
       'karma-junit-reporter',
       'karma-webpack',
-      'karma-sourcemap-loader'
+      'karma-sourcemap-loader',
     ],
 
     junitReporter: {
       outputFile: 'test_out/unit.xml',
-      suite: 'unit'
+      suite: 'unit',
     },
 
     preprocessors: {
-      ['app/**/*.js']: ['webpack', 'sourcemap']
+      'app/**/*.js': ['webpack', 'sourcemap'],
     },
 
     webpack: {
@@ -40,8 +39,8 @@ module.exports = function(config) {
       plugins: [
         new webpack.ProvidePlugin({
           $: 'jquery',
-          jQuery: 'jquery'
-        })
+          jQuery: 'jquery',
+        }),
       ],
       module: {
         loaders: [
@@ -49,14 +48,14 @@ module.exports = function(config) {
           { test: /\.html$/, loader: 'raw', exclude: 'node_modules' },
           { test: /\.less$/, loader: 'null' },
           { test: /\.(woff|woff2)$/, loader: 'null' },
-          { test: /\.(ttf|eot|svg)$/, loader: 'null' }
-        ]
-      }
+          { test: /\.(ttf|eot|svg)$/, loader: 'null' },
+        ],
+      },
     },
 
     webpackMiddleware: {
-      stats: 'errors-only'
-    }
+      stats: 'errors-only',
+    },
 
-  })
-}
+  });
+};
