@@ -100,9 +100,9 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
-angular-mocks@1.5.8:
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/angular-mocks/-/angular-mocks-1.5.8.tgz#2e9399056669f286a681396bc35ae0d7c5c70d16"
+angular-mocks@1.5.9:
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/angular-mocks/-/angular-mocks-1.5.9.tgz#5d6d6b37873d6c59e32e195f5de161f4a3f2f7e8"
 
 angular-ui-router@0.3.2:
   version "0.3.2"
@@ -110,9 +110,9 @@ angular-ui-router@0.3.2:
   dependencies:
     angular "^1.0.8"
 
-angular@1.5.8, angular@^1.0.8:
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/angular/-/angular-1.5.8.tgz#925a5392b8c212d09572dc446db7e01264e094cb"
+angular@1.5.9, angular@^1.0.8:
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/angular/-/angular-1.5.9.tgz#b7aeff42dad87881e06be16b6690fe766d868b51"
 
 ansi-escapes@^1.1.0:
   version "1.4.0"
@@ -1336,8 +1336,8 @@ cssesc@^0.1.0:
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-0.1.0.tgz#c814903e45623371a0477b40109aaafbeeaddbb4"
 
 "cssnano@>=2.6.1 <4":
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-3.8.0.tgz#bb90ac5292f42b679d9a05f6da0e9697556bb80d"
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-3.8.1.tgz#008a482148ee948cf0af2ee6e44bd97c53f886ec"
   dependencies:
     autoprefixer "^6.3.1"
     decamelize "^1.1.2"
@@ -1691,9 +1691,9 @@ eslint-plugin-react@6.7.1:
     doctrine "^1.2.2"
     jsx-ast-utils "^1.3.3"
 
-eslint@3.10.2:
-  version "3.10.2"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.10.2.tgz#c9a10e8bf6e9d65651204778c503341f1eac3ce7"
+eslint@3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.11.0.tgz#41d34f8b3e69949beee5c097ff4e75ad13ba2d00"
   dependencies:
     babel-code-frame "^6.16.0"
     chalk "^1.1.3"
@@ -3165,8 +3165,8 @@ postcss-colormin@^2.1.8:
     postcss-value-parser "^3.2.3"
 
 postcss-convert-values@^2.3.4:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-2.4.1.tgz#45dce4d4e33b7d967b97a4d937f270ea98d2fe7a"
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-2.5.0.tgz#570aceb04b3061fb25f6f46bd0329e7ab6263c0b"
   dependencies:
     postcss "^5.0.11"
     postcss-value-parser "^3.1.2"
@@ -3367,9 +3367,10 @@ postcss-value-parser@^3.0.1, postcss-value-parser@^3.0.2, postcss-value-parser@^
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.0.tgz#87f38f9f18f774a4ab4c8a232f5c5ce8872a9d15"
 
 postcss-zindex@^2.0.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/postcss-zindex/-/postcss-zindex-2.1.1.tgz#ea3fbe656c9738aa8729e2ee96ec2a46089b720f"
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/postcss-zindex/-/postcss-zindex-2.2.0.tgz#d2109ddc055b91af67fc4cb3b025946639d2af22"
   dependencies:
+    has "^1.0.1"
     postcss "^5.0.4"
     uniqs "^2.0.0"
 
@@ -3491,8 +3492,8 @@ querystringify@0.0.x:
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-0.0.4.tgz#0cf7f84f9463ff0ae51c4c4b142d95be37724d9c"
 
 randomatic@^1.1.3:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/randomatic/-/randomatic-1.1.5.tgz#5e9ef5f2d573c67bd2b8124ae90b5156e457840b"
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/randomatic/-/randomatic-1.1.6.tgz#110dcabff397e9dcff7c0789ccc0a49adf1ec5bb"
   dependencies:
     is-number "^2.0.2"
     kind-of "^3.0.2"
