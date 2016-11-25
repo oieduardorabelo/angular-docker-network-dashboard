@@ -1,5 +1,3 @@
-
-
 import './main-sidebar.less';
 import rawTemplate from './main-sidebar.html';
 

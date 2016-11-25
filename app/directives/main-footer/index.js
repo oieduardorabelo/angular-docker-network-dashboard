@@ -1,5 +1,3 @@
-
-
 import './main-footer.less';
 import rawTemplate from './main-footer.html';
 

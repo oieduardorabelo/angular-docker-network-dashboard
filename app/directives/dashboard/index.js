@@ -1,5 +1,3 @@
-
-
 import './dashboard.less';
 import rawTemplate from './dashboard.html';
 

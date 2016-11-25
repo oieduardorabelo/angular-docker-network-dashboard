@@ -1,5 +1,3 @@
-
-
 import './main-header.less';
 import rawTemplate from './main-header.html';
 
