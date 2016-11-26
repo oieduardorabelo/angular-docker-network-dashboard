@@ -1,4 +1,4 @@
-describe('Unit testing <dashboard /> directive', () => {
+describe('Unit testing <main-footer /> directive', () => {
   let $compile;
   let $rootScope;
 
@@ -16,10 +16,10 @@ describe('Unit testing <dashboard /> directive', () => {
 
   it('render correct template', () => {
     // Compile a piece of HTML containing the directive
-    const element = $compile('<dashboard></dashboard>')($rootScope);
+    const element = $compile('<main-footer></main-footer>')($rootScope);
     // fire all the watches, so the scope expression {{1 + 1}} will be evaluated
     $rootScope.$digest();
     // Check that the compiled element contains the templated content
-    expect(element.find('h1').text()).toContain('Dashboard');
+    expect(element.find('h1').text()).toContain('Main footer');
   });
 });
