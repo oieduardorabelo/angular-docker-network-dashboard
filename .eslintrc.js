@@ -10,4 +10,8 @@ module.exports = {
     jasmine: true,
   },
   extends: ['airbnb'],
+  globals: {
+    angular: true,
+    inject: true,
+  }
 };
