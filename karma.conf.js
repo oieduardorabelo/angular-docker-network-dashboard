@@ -3,12 +3,7 @@ const webpack = require('webpack');
 module.exports = function karmaConfig(config) {
   config.set({
 
-    files: [
-      'node_modules/angular/angular.js',
-      'node_modules/angular-ui-router/release/angular-ui-router.js',
-      'node_modules/angular-mocks/angular-mocks.js',
-      'karma.setup.js',
-    ],
+    files: ['karma.setup.js'],
 
     autoWatch: true,
 
