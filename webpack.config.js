@@ -20,9 +20,9 @@ module.exports = {
   ],
   module: {
     loaders: [
-      { test: /\.js$/, loader: 'babel', exclude: 'node_modules' },
-      { test: /\.html$/, loader: 'raw', exclude: 'node_modules' },
-      { test: /\.less$/, loader: 'style!css!less', exclude: 'node_modules' },
+      { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
+      { test: /\.html$/, loader: 'raw', exclude: /node_modules/ },
+      { test: /\.less$/, loader: 'style!css!less', exclude: /node_modules/ },
       { test: /\.(woff|woff2)$/, loader: 'url-loader?limit=10000&mimetype=application/font-woff' },
       { test: /\.(ttf|eot|svg)$/, loader: 'file' },
     ],

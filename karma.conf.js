@@ -6,9 +6,8 @@ module.exports = function karmaConfig(config) {
     files: [
       'node_modules/angular/angular.js',
       'node_modules/angular-ui-router/release/angular-ui-router.js',
-      'node_modules/angular-ui-router/release/stateEvents.js',
       'node_modules/angular-mocks/angular-mocks.js',
-      'app/**/*.js',
+      'karma.setup.js',
     ],
 
     autoWatch: true,
@@ -31,7 +30,7 @@ module.exports = function karmaConfig(config) {
     },
 
     preprocessors: {
-      'app/**/*.js': ['webpack', 'sourcemap'],
+      'karma.setup.js': ['webpack', 'sourcemap'],
     },
 
     webpack: {
@@ -44,8 +43,8 @@ module.exports = function karmaConfig(config) {
       ],
       module: {
         loaders: [
-          { test: /\.js$/, loader: 'babel', exclude: 'node_modules' },
-          { test: /\.html$/, loader: 'raw', exclude: 'node_modules' },
+          { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
+          { test: /\.html$/, loader: 'raw', exclude: /node_modules/ },
           { test: /\.less$/, loader: 'null' },
           { test: /\.(woff|woff2)$/, loader: 'null' },
           { test: /\.(ttf|eot|svg)$/, loader: 'null' },
