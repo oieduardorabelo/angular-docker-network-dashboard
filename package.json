@@ -5,7 +5,9 @@
   "repository": "git@github.com:oieduardorabelo/angular-dashboard.git",
   "scripts": {
     "eslint": "eslint --config .eslintrc.js --ext .js,.jsx ./",
-    "test": "karma start karma.conf.js",
+    "test": "jest --config jest.conf.json",
+    "test:watch": "jest --config jest.conf.json --watchAll",
+    "test:coverage": "jest --config jest.conf.json --coverage",
     "start": "node node_modules/.bin/webpack-dev-server --content-base app --hot --inline"
   },
   "author": "Angular Dashboard <dashboard@app.io>",
@@ -13,7 +15,11 @@
   "dependencies": {
     "angular": "1.6.0",
     "angular-ui-router": "0.3.2",
+    "babel-jest": "17.0.2",
     "bootstrap": "3.3.7",
+    "glob": "7.1.1",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "17.0.3",
     "webpack": "1.14.0"
   },
   "devDependencies": {
@@ -31,12 +37,6 @@
     "file-loader": "0.9.0",
     "jasmine-core": "2.5.2",
     "jquery": "3.1.1",
-    "karma": "1.3.0",
-    "karma-chrome-launcher": "2.0.0",
-    "karma-jasmine": "1.1.0",
-    "karma-junit-reporter": "1.2.0",
-    "karma-sourcemap-loader": "0.3.7",
-    "karma-webpack": "1.8.0",
     "less": "2.7.1",
     "less-loader": "2.2.3",
     "lodash": "4.17.2",
