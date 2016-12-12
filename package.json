@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Angular Dashboard App",
   "repository": "git@github.com:oieduardorabelo/angular-dashboard.git",
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "scripts": {
     "eslint": "eslint --config .eslintrc.js --ext .js,.jsx ./",
     "test": "jest --config jest.conf.json",
