@@ -1,0 +1,20 @@
+{
+  "bail": true,
+  "verbose": true,
+  "collectCoverageFrom": [
+    "app/directives/**/*.js",
+    "!**/node_modules/**"
+  ],
+  "moduleNameMapper": {
+    "^.+\\.less$": "identity-obj-proxy"
+  },
+  "setupTestFrameworkScriptFile": "<rootDir>/jest.context.js",
+  "testPathDirs": [
+    "<rootDir>/app"
+  ],
+  "testRegex": "_test\\.(js)$",
+  "transform": {
+    "^.+\\.js$": "<rootDir>/jest.jsPreprocessor.js",
+    "^.+\\.html$": "<rootDir>/jest.htmlPreprocessor.js"
+  }
+}
