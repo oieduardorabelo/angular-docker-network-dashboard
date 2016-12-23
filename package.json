@@ -16,7 +16,7 @@
   "author": "Angular Dashboard <dashboard@app.io>",
   "license": "MIT",
   "dependencies": {
-    "angular": "1.6.0",
+    "angular": "1.6.1",
     "angular-ui-router": "0.3.2",
     "babel-jest": "18.0.0",
     "bootstrap": "3.3.7",
