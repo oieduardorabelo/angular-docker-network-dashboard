@@ -19,4 +19,6 @@ window.jQuery = require('jquery');
 // Jest doesn't support glob in the "setupFiles" key
 //
 const glob = require('glob');
+
+// eslint-disable-next-line global-require,import/no-dynamic-require
 glob.sync('./app/**/*.js').forEach(file => require(file));
