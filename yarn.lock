@@ -99,9 +99,9 @@ angular-mocks@1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/angular-mocks/-/angular-mocks-1.6.1.tgz#2f44a1b3ac608e93751305bce176c274221d8abd"
 
-angular-ui-router@0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/angular-ui-router/-/angular-ui-router-0.3.2.tgz#c27e0496309c99218d5655985b164a096ab520a9"
+angular-ui-router@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/angular-ui-router/-/angular-ui-router-0.4.0.tgz#c9efb66277d8ae63deede9b06908a7c95162ebdb"
   dependencies:
     angular "^1.0.8"
 
@@ -4958,11 +4958,7 @@ xml2js@^0.4.17:
     sax ">=0.6.0"
     xmlbuilder "^4.1.0"
 
-xmlbuilder@>=1.0.0:
-  version "8.2.2"
-  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-8.2.2.tgz#69248673410b4ba42e1a6136551d2922335aa773"
-
-xmlbuilder@^4.1.0:
+xmlbuilder@>=1.0.0, xmlbuilder@^4.1.0:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-4.2.1.tgz#aa58a3041a066f90eaa16c2f5389ff19f3f461a5"
   dependencies:
