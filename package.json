@@ -25,7 +25,7 @@
     "identity-obj-proxy": "3.0.0",
     "jest": "18.1.0",
     "jquery": "3.1.1",
-    "webpack": "1.14.0"
+    "webpack": "2.2.1"
   },
   "devDependencies": {
     "babel-core": "6.22.1",
@@ -44,10 +44,10 @@
     "less-loader": "2.2.3",
     "lodash": "4.17.4",
     "null-loader": "0.1.1",
-    "protractor": "5.0.0",
+    "protractor": "5.1.0",
     "raw-loader": "0.5.1",
     "style-loader": "0.13.1",
     "url-loader": "0.5.7",
-    "webpack-dev-server": "1.16.2"
+    "webpack-dev-server": "1.16.3"
   }
 }
