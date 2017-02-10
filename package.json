@@ -16,8 +16,8 @@
   "author": "Angular Dashboard <dashboard@app.io>",
   "license": "MIT",
   "dependencies": {
-    "angular": "1.6.1",
-    "angular-mocks": "1.6.1",
+    "angular": "1.6.2",
+    "angular-mocks": "1.6.2",
     "angular-ui-router": "0.4.2",
     "babel-jest": "18.0.0",
     "bootstrap": "3.3.7",
@@ -33,8 +33,8 @@
     "babel-preset-es2015": "6.22.0",
     "babel-preset-stage-0": "6.22.0",
     "css-loader": "0.26.1",
-    "eslint": "3.14.1",
-    "eslint-config-airbnb": "14.0.0",
+    "eslint": "3.15.0",
+    "eslint-config-airbnb": "14.1.0",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "3.0.2",
     "eslint-plugin-react": "6.9.0",
@@ -44,10 +44,10 @@
     "less-loader": "2.2.3",
     "lodash": "4.17.4",
     "null-loader": "0.1.1",
-    "protractor": "5.1.0",
+    "protractor": "5.1.1",
     "raw-loader": "0.5.1",
     "style-loader": "0.13.1",
     "url-loader": "0.5.7",
-    "webpack-dev-server": "1.16.3"
+    "webpack-dev-server": "2.3.0"
   }
 }
