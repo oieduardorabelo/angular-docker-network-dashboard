@@ -41,7 +41,7 @@
     "file-loader": "0.10.1",
     "jasmine-core": "2.5.2",
     "less": "2.7.2",
-    "less-loader": "3.0.0",
+    "less-loader": "4.0.2",
     "lodash": "4.17.4",
     "null-loader": "0.1.1",
     "protractor": "5.1.1",
