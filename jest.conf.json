@@ -9,7 +9,7 @@
     "^.+\\.less$": "identity-obj-proxy"
   },
   "setupTestFrameworkScriptFile": "<rootDir>/jest.context.js",
-  "testPathDirs": [
+  "roots": [
     "<rootDir>/app"
   ],
   "testRegex": "_test\\.(js)$",
