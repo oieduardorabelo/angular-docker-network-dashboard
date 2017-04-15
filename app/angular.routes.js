@@ -1,4 +1,4 @@
-export default (ngModule) => {
+export default ngModule => {
   ngModule.config(($stateProvider, $urlRouterProvider) => {
     $urlRouterProvider.otherwise('/dashboard');
 

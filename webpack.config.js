@@ -22,8 +22,15 @@ module.exports = {
     loaders: [
       { test: /\.js$/, use: 'babel-loader', exclude: /node_modules/ },
       { test: /\.html$/, use: 'raw-loader', exclude: /node_modules/ },
-      { test: /\.less$/, use: ['style-loader', 'css-loader', 'less-loader'], exclude: /node_modules/ },
-      { test: /\.(woff|woff2)$/, use: 'url-loader?limit=10000&mimetype=application/font-woff' },
+      {
+        test: /\.less$/,
+        use: ['style-loader', 'css-loader', 'less-loader'],
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.(woff|woff2)$/,
+        use: 'url-loader?limit=10000&mimetype=application/font-woff',
+      },
       { test: /\.(ttf|eot|svg)$/, use: 'file-loader' },
     ],
   },

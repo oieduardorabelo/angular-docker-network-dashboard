@@ -7,12 +7,14 @@ describe('Unit testing <main-footer /> directive', () => {
 
   // Store references to $rootScope and $compile
   // so they are available to all tests in this describe block
-  beforeEach(inject((_$compile_, _$rootScope_) => {
-    // The injector unwraps the underscores (_) from around
-    // the parameter names when matching
-    $compile = _$compile_;
-    $rootScope = _$rootScope_;
-  }));
+  beforeEach(
+    inject((_$compile_, _$rootScope_) => {
+      // The injector unwraps the underscores (_) from around
+      // the parameter names when matching
+      $compile = _$compile_;
+      $rootScope = _$rootScope_;
+    })
+  );
 
   it('render correct template', () => {
     // Compile a piece of HTML containing the directive
@@ -20,6 +22,8 @@ describe('Unit testing <main-footer /> directive', () => {
     // fire all the watches, so the scope expression {{1 + 1}} will be evaluated
     $rootScope.$digest();
     // Check that the compiled element contains the templated content
-    expect(element.find('.navbar.navbar-inverse.navbar-fixed-top')).toBeDefined();
+    expect(
+      element.find('.navbar.navbar-inverse.navbar-fixed-top')
+    ).toBeDefined();
   });
 });

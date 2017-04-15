@@ -3,7 +3,7 @@ import mainFooter from './main-footer';
 import mainSidebar from './main-sidebar';
 import dashboard from './dashboard';
 
-export default (ngModule) => {
+export default ngModule => {
   mainHeader(ngModule);
   mainFooter(ngModule);
   mainSidebar(ngModule);
