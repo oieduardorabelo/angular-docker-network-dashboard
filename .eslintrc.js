@@ -9,9 +9,17 @@ module.exports = {
     es6: true,
     jasmine: true,
   },
-  extends: ['airbnb'],
+  extends: ['airbnb', 'prettier'],
+  plugins: ['prettier'],
   globals: {
     angular: true,
     inject: true,
-  }
+  },
+  rules: {
+    'prettier/prettier': [
+      'error', {
+        'trailingComma': 'es5',
+        'singleQuote': true,
+      }],
+  },
 };
