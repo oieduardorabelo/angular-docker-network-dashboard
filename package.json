@@ -19,7 +19,7 @@
     "angular": "1.6.4",
     "angular-mocks": "1.6.4",
     "angular-ui-router": "0.4.2",
-    "babel-jest": "19.0.0",
+    "babel-jest": "20.0.0",
     "bootstrap": "3.3.7",
     "eslint-config-prettier": "1.7.0",
     "eslint-plugin-prettier": "2.0.1",
