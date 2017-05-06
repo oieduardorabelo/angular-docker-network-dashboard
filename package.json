@@ -28,7 +28,7 @@
     "jest": "20.0.0",
     "jquery": "3.2.1",
     "prettier": "1.2.2",
-    "webpack": "2.4.1"
+    "webpack": "2.5.1"
   },
   "devDependencies": {
     "babel-core": "6.24.1",
@@ -50,6 +50,6 @@
     "raw-loader": "0.5.1",
     "style-loader": "0.17.0",
     "url-loader": "0.5.8",
-    "webpack-dev-server": "2.4.4"
+    "webpack-dev-server": "2.4.5"
   }
 }
