@@ -21,7 +21,7 @@
     "angular-ui-router": "1.0.3",
     "babel-jest": "20.0.1",
     "bootstrap": "3.3.7",
-    "eslint-config-prettier": "2.0.0",
+    "eslint-config-prettier": "2.1.0",
     "eslint-plugin-prettier": "2.0.1",
     "glob": "7.1.1",
     "identity-obj-proxy": "3.0.0",
